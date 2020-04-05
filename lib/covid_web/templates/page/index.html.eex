@@ -6,7 +6,7 @@
 </section>
 <div>
 <%= for virus <- @viruses do %>
-  <div><%=virus.name%></div>
+  <div><%=upper_case_name(virus.name)%></div>
 <%end%>
 </div>
 
