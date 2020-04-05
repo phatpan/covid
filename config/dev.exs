@@ -3,7 +3,7 @@ use Mix.Config
 # Configure your database
 config :covid, Covid.Repo,
   username: "postgres",
-  password: "postgres",
+  password: "mysecretpassword",
   database: "covid_dev",
   hostname: "localhost",
   show_sensitive_data_on_connection_error: true,
