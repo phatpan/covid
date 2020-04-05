@@ -4,6 +4,11 @@
   <%= gettext "Welcome to %{name}!", name: "Covid19" %></h1>
   <p>A productive web framework that<br/>does not compromise speed or maintainability.</p>
 </section>
+<div>
+<%= for virus <- @viruses do %>
+  <div><%=virus.name%></div>
+<%end%>
+</div>
 
 <section class="row">
   <article class="column">
